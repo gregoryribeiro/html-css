@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens adaptativas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Você pode colocar uma imagem no seu site, mas talvez ela não não fique do jeito ideal, atrapalhando na experiência do usuário.</p>
+    <p>Então vamos utilizar imagem dinâmica, que vai se adapatar ao tamanho da tela, usando HTML5</p>
+    <picture>
+        <source media="(max-width:500px )" srcset="imagens/200-400.png" type="image/png">
+        <source media="(max-width:850px )" srcset="imagens/450-200.png" type="image/png">
+        <img src="imagens/800-1228.png" alt="teste">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a incluir audio no site</p>
+    <audio src="midia/goat.mp3" controls autoplay></audio>
+    <audio preload="metadata" controls loop>
+        <source src="midia/goat.mp3" type="audio/mpeg">
+        <source src="midia/goat.wav" type="audio/wav">
+        <source src="midia/goat.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>
