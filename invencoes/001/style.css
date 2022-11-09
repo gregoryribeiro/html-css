@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+header{
+    background-image: url(imagens/cookie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    max-width: 100vw
+
+    
+}
+
+main{
+    color: aliceblue;
+}
+
