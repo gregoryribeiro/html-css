@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root{
+    cor01:#DDB794;
+    cor02:#D79250;
+    cor03:#A36E3C;
+    cor04:#573A20;
+    cor05:#57483A;
+
+}
 
 body{
     background-color: black;
@@ -20,3 +28,10 @@ main{
     color: aliceblue;
 }
 
+#sobre{
+    background-color: #DDB794;
+}
+
+footer{
+    color: #ffff;
+}
